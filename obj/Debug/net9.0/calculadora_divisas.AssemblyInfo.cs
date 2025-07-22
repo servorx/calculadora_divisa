@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("calculadora_divisas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67d506f6a0a16583b57e390ab1bb3f3ce6b9d2dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0dd3f07cfaf032f4ec70152f14b8231f5f50cc8")]
 [assembly: System.Reflection.AssemblyProductAttribute("calculadora_divisas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("calculadora_divisas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

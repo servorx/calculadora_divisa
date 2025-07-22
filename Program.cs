@@ -11,38 +11,63 @@ namespace Calculadora
   {
     private static void Main(string[] args)
     {
+      // esto es para permitir caracteres especiales
       Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-      System.Console.Write($"ahora ingrese una cantidad de {NumberFormatInfo.CurrentInfo.CurrencySymbol}\n-> ");
+      // esto es el input de la cantidad de dinero en pesos
+      System.Console.Write($"usuario, ingrese una cantidad de {NumberFormatInfo.CurrentInfo.CurrencySymbol} en {CultureInfo.CurrentCulture.Name}\n-> ");
       double money = Convert.ToDouble(Console.ReadLine());
 
       // input del menu de la divisa sobre la cual se va a realizar la conversion
-      System.Console.Write("ingrese el tipo de divisa al que desea utilizar:\n1. {0}\n2. {1}\n3. {2}\n4. {3}\n5. {4}\n5. {6}\n-> ", CultureInfo.CurrentCulture.Name);
+      System.Console.Write("\ningrese el tipo de divisa al que desea utilizar:\n1. en-US\n2. es-ES\n3. ja-JP\n-> ");
       byte menu = Convert.ToByte(Console.ReadLine());
-      // input del valor a convertir 
+
+      // declaraciones de variables usadas en el switch
       double answer = 0;
+      double tasa = 0;
+      string culture_string = "";
+      // swtich de los casos del menu
       switch (menu)
-      { 
+      {
         // pesos a dolares 
         case 1:
-          double answer = money * 1;//no se que colocar para calcular el resultado de la divisa
+          culture_string = "en-US";
+          tasa = 0.00025;
+          answer = money * tasa;
+          break;
         // pesos a euros
         case 2:
-          double answer = money * 1;//no se que colocar para calcular el resultado de la divisa
-        // pesos a yenes
+          culture_string = "es-ES";
+          tasa = 0.00021;
+          answer = money * tasa;
+          break;
         case 3:
-          double answer = money * 1;//no se que colocar para calcular el resultado de la divisa~
+          culture_string = "ja-JP";
+          tasa = 0.037;
+          answer = money * tasa;
+          break;
         default:
           System.Console.WriteLine("error, vuelva a intentarlo");
-          break;
+          // finalizar el programa en caso de que ingrese un valor invalido
+          return;
       }
-      NumberFormatInfo nfi = new CultureInfo($"{menu}", false).NumberFormat;
+      // definir el formato personalizado de la cultura elegida por el usario
+      NumberFormatInfo nfi = new CultureInfo($"{culture_string}", false).NumberFormat;
+
+      // separardor por defecto
+      System.Console.Write("\nseparador por defecto: ");
       Console.WriteLine(answer.ToString("C", nfi));
+
+      // separador personalizado con espacio
       nfi.CurrencyDecimalSeparator = " ";
+      System.Console.Write("\nseparador con espacio: ");
       Console.WriteLine(answer.ToString("C", nfi));
-      
-      Console.WriteLine($"{answer.ToString("C3", new CultureInfo($"{menu}"))}");  
+
+      // 3 decimales de presicion
+      System.Console.Write("\n3 decimales de separacion: ");
+      Console.WriteLine($"{answer.ToString("C3", new CultureInfo($"{culture_string}"))}");  
 
     }
   }
 }
+

@@ -12,3 +12,4 @@
 /home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/obj/Debug/net9.0/calculadora_divisas.pdb
 /home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/obj/Debug/net9.0/calculadora_divisas.genruntimeconfig.cache
 /home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/obj/Debug/net9.0/ref/calculadora_divisas.dll
+/home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/obj/Debug/net9.0/calculadora_divisas.sourcelink.json

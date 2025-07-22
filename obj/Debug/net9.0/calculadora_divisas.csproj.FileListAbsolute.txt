@@ -1,0 +1,14 @@
+/home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/bin/Debug/net9.0/calculadora_divisas
+/home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/bin/Debug/net9.0/calculadora_divisas.deps.json
+/home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/bin/Debug/net9.0/calculadora_divisas.runtimeconfig.json
+/home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/bin/Debug/net9.0/calculadora_divisas.dll
+/home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/bin/Debug/net9.0/calculadora_divisas.pdb
+/home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/obj/Debug/net9.0/calculadora_divisas.GeneratedMSBuildEditorConfig.editorconfig
+/home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/obj/Debug/net9.0/calculadora_divisas.AssemblyInfoInputs.cache
+/home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/obj/Debug/net9.0/calculadora_divisas.AssemblyInfo.cs
+/home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/obj/Debug/net9.0/calculadora_divisas.csproj.CoreCompileInputs.cache
+/home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/obj/Debug/net9.0/calculadora_divisas.dll
+/home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/obj/Debug/net9.0/refint/calculadora_divisas.dll
+/home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/obj/Debug/net9.0/calculadora_divisas.pdb
+/home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/obj/Debug/net9.0/calculadora_divisas.genruntimeconfig.cache
+/home/angel/Desktop/formacion/I_love_code/C#/campus/calculadora_divisas/obj/Debug/net9.0/ref/calculadora_divisas.dll

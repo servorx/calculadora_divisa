@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "calculadora_divisas/1.0.0": {
+        "runtime": {
+          "calculadora_divisas.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "calculadora_divisas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
